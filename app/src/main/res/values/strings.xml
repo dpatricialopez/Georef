@@ -1,0 +1,204 @@
+<resources>
+
+    <string name="menu_opcion1">Unidad productiva</string>
+    <string name="menu_opcion2">Problemáticas comunales</string>
+    <string name="menu_opcion3">Retos sociales</string>
+    <string name="menu_opcion4">Crear unidad productiva </string>
+
+    <string name="app_name">Georef</string>
+    <string name="title_activity_maps1">Map</string>
+    <string name="espera">Calculando ubicación, espere un momento Por favor.</string>
+
+    <string name="net">No hay conexión a internet</string>
+
+    <string name="Encuesta1_pregunta1">Nombres y Apellidos</string>
+    <string name="Encuesta1_pregunta2">Nit</string>
+    <string name="ced">Cédula </string>
+    <string name="Encuesta1_pregunta3">Teléfono fijo de la empresa</string>
+    <string name="Encuesta1_pregunta3_4">Celular del encuestado</string>
+    <string name="Encuesta1_pregunta3_5">Correo Electrónico</string>
+    <string name="Encuesta1_pregunta4">Dirección</string>
+    <string name="Encuesta1_pregunta4_7">Barrio de la empresa</string>
+    <string name="Encuesta1_pregunta4_8">Comuna de la empresa</string>
+    <string name="Encuesta1_preguntarazon">Razon social</string>
+    <string name="Encuesta1_pregunta4_9">Edad del Encuestado</string>
+    <string name="Encuesta1_pregunta5">Rol del encuestado</string>
+    <string name="Encuesta1_pregunta6">Tipo de Unidad Productiva</string>
+    <string name="Encuesta1_pregunta19b">Descripción de actividad económica</string>
+    <string name="Encuesta1_pregunta7">Género</string>
+    <string name="Encuesta1_pregunta8">Grado De Escolaridad</string>
+    <string name="Encuesta1_pregunta9">Tamaño De la Empresa</string>
+    <string name="Encuesta1_pregunta9_15">Tiempo que la empresa lleva activa</string>
+    <string name="Encuesta1_pregunta9_16">¿Posee registro mercantil?</string>
+    <string name="Encuesta1_pregunta9_17">Número de empleados</string>
+    <string name="Encuesta1_pregunta10">Manejo de Equipos Informáticos para el negocio</string>
+    <string name="Encuesta1_pregunta11">¿Cuenta con servicios de internet?</string>
+    <string name="Encuesta1_pregunta12">¿Conoce sobre innovación? </string>
+    <string name="Encuesta1_pregunta13">¿Le gustaría asistir a un curso de formación en innovación(54 horas) gratuito?</string>
+    <string name="Encuesta1_pregunta14">¿Ha realizado un curso de innovación anteriormente? </string>
+    <string name="Encuesta1_pregunta14_23">¿En que áreas relacionadas con la innovación ha recibido capacitación? </string>
+    <string name="Encuesta1_pregunta15">¿Qué aspectos desea mejorar en su negocio? </string>
+    <string name="Encuesta1_pregunta16">¿Qué desea mejorar de la comunidad donde está asentado su negocio?</string>
+    <string name="Encuesta1_pregunta29">¿Participa activamente en programas de su comunidad?</string>
+    <string name="Encuesta1_pregunta27">¿En qué tipo de programa participa?</string>
+    <string name="Encuesta1_pregunta26">¿Qué tanto ha cambiado su negocio en los últimos años desde el punto de vista de los productos o servicios que ofrece ?</string>
+    <string name="pqmn">¿Por qué le gustaría mejorar estos aspectos?</string>
+    <string name="pqmc">¿Por qué le gustaría mejorar estos aspectos?</string>
+
+
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+
+    <string name="e1">Nombre</string>
+    <string name="e2">Nit </string>
+    <string name="e3">Cédula </string>
+    <string name="e4">Teléfono</string>
+    <string name="e5">Celular</string>
+    <string name="e6">Correo Electrónico</string>
+    <string name="e7">Dirección</string>
+    <string name="e8">Barrio</string>
+    <string name="e9">Comuna</string>
+    <string name="e10">Edad del Encuestado</string>
+    <string name="e11">Rol del encuestado</string>
+    <string name="e12">Tipo de negocio</string>
+    <string name="e13">Género</string>
+    <string name="e14">Grado De Escolaridad</string>
+    <string name="e15">Tamaño De la Empresa</string>
+    <string name="e16">Tiempo que la empresa lleva activa</string>
+    <string name="e17">Registro mercantil</string>
+    <string name="e18">Número de empleados</string>
+    <string name="e19">Equipos Informáticos manejados en el negocio</string>
+    <string name="e20">Servicios de internet</string>
+    <string name="e21">¿Conoce sobre innovación? </string>
+    <string name="e22">¿Qué tanto ha cambiado su negocio en los últimos años desde el punto de vista de los productos o servicios que ofrece ?</string>
+    <string name="e23">¿Ha realizado un curso de innovación anteriormente? </string>
+    <string name="e24">¿En qué áreas relacionadas con la innovación ha recibido capacitación? </string>
+    <string name="e25">¿Qué aspectos desea mejorar en su negocio? </string>
+    <string name="e27">¿Qué desea mejorar de la comunidad donde está asentado su negocio?</string>
+    <string name="e29">¿Participa activamente en programas de su comunidad?</string>
+    <string name="e30">¿En qué tipo de programa participa?</string>
+    <string name="e31">¿Qué tanto ha cambiado su negocio en los últimos años ?</string>
+    <string name="e28">¿Por qué le gustaría mejorar estos aspectos?</string>
+    <string name="e26">¿Por qué le gustaría mejorar estos aspectos?</string>
+    <string name="eac">Actividad Económica</string>
+
+    <string name="pendiente">Esta sección estará disponible próximamente.</string>
+
+
+
+    <string name="Equipo1">Computador</string>
+    <string name="Equipo2">Celular Inteligente</string>
+    <string name="Equipo3">Tablet</string>
+    <string name="Equipo4">Otro </string>
+    <string name="Equipo5">Ninguno </string>
+
+    <string name="Emp1">1 Empleado</string>
+    <string name="Emp2">2 Empleados</string>
+    <string name="Emp3">3 Empleadost</string>
+    <string name="Emp4">Entre 3 y 10 empleados</string>
+    <string name="Emp5">Entre 10 y 50 empleados </string>
+    <string name="Emp6">Más de 50 empleados </string>
+
+    <string name="tp1">Menos de 1 año</string>
+    <string name="tp2">Entre 1 año y 5 años</string>
+    <string name="tp3">Entre 5 años y 10 años</string>
+    <string name="tp4">Más de 10 años</string>
+
+
+    <string name="mn1">Distribución</string>
+    <string name="mn2">Contabilidad</string>
+    <string name="mn3">Capacitación </string>
+    <string name="mn4">Ventas</string>
+    <string name="mn5">Mejoras físicas</string>
+    <string name="mn6">Imagen</string>
+    <string name="mn7">Diversificar productos/servicios</string>
+
+
+    <string name="edad1">16 a 18 años </string>
+    <string name="edad2">19 a 25 años</string>
+    <string name="edad3">26 a 40 años</string>
+    <string name="edad4">41 años en adelante </string>
+
+
+    <string name="mc1">Seguridad </string>
+    <string name="mc2">Movilidad</string>
+    <string name="mc3">Acceso</string>
+    <string name="mc4">Salud </string>
+    <string name="mc5">Educación  </string>
+    <string name="mc6">Cobertura de servicios públicos</string>
+    <string name="mc7">Diversión</string>
+
+
+    <string name="falla">El Gps presenta problemas. Configurando Red</string>
+
+    <string name="ar1">Tecnología </string>
+    <string name="ar2">Comunicaciones</string>
+    <string name="ar3">Logística</string>
+    <string name="ar4">Financiera</string>
+    <string name="ar5">Mercadeo</string>
+    <string name="ar6">Otro</string>
+
+    <string name="pro1">Educativos </string>
+    <string name="pro2">Comunales</string>
+    <string name="pro3">Seguridad</string>
+    <string name="pro4">Financiera</string>
+    <string name="pro5">Ninguno</string>
+    <string name="pro6">Otro</string>
+
+    <string name="desc1">Visualizar en el mapa todas las unidades productivas registradas.</string>
+    <string name="desc2">Filtrar unidades productivas según las problématicas comunales y ver el ranking de las mas comunes.</string>
+    <string name="desc3">Ingresar una nueva unidad productiva diligenciando una encuesta.</string>
+    <string name="desc4">Ver el listado de retos sociales que afectan a las comunas.</string>
+    <string name="empleofoco">Generación de empleo</string>
+
+    <string name="empleop1">¿Cómo generar oportunidades laborales a la población general de la comuna?</string>
+    <string name="empleop3">¿Cómo podríamos disminuir el desempleo en las mujeres cabeza de hogar en comuna?</string>
+    <string name="empleop2">¿Qué mecanismos utilizamos para generar para generar fuentes de empleo?</string>
+    <string name="empleor1">Formar la población para la prestación de servicios.\nDar a conocer las oportunidades que brindan los entes gubernamentales y los privados.\nPromover la vinculación laboral de los profesionales de la comuna</string>
+    <string name="empleor2">1. Capacitando a la comunidad en talleres.\n2. Dando oportunidades de adquirir experiencia laboral.\n3. Dando oportunidad a todas las edades.</string>
+    <string name="empleor3">-Crear micro-empresas barriales.\n-Crear capacitaciones en diferentes áreas laborales que puedan generar ingresos.\n-Fortalecimiento en proyectos productivos.\n-Crear redes sociales en pro de una articulación de nuevos conocimientos</string>
+
+    <string name="educap">¿Cómo asegurar el ingreso a la E.S  de las personas que no cuentan con esas oportunidades?</string>
+    <string name="educar">Informar acerca de todos los programas y facilidades para ingresas a las IES\nFomentar la formación en las áreas de interés.\nMotivar con ferias universitarias en las IE .</string>
+    <string name="educafoco">Educación</string>
+
+    <string name="ninop">¿Cómo brindar atención integral a los niños y jóvenes que consumen sustancias psicoativas?</string>
+    <string name="ninor">Centro de apoyo y tratamiento de las familias</string>
+    <string name="ninofoco">Atención integral a la primera infancia</string>
+
+    <string name="mujerp">¿Cómo pueden desempeñarse las madres cabeza de hogar?</string>
+    <string name="mujerp2">¿Cómo incluir en el ámbito laboral a las mujeres jóvenes?</string>
+    <string name="mujerr2">Capacitar más en todas la áreas./nOfrecer oportunidades familiares. /nConstruir un grupo colectivo de mujeres en pro del desarrollo.</string>
+    <string name="mujer1">Capacitándolas en talleres./nEjemplo: Modistería, cocina, manualidades/nFomentar una fuente de empleo para ellas./nDándoles oportunidad de empleo.</string>
+    <string name="mujerfoco">Empleo mujeres cabeza de hogar</string>
+
+    <string name="drogar2">-Acompañamiento familiar.\n-Estrategias de formación pertinente en pro de la causas del consumo.\n-Buscar apoyos externos, deporte, recreación, arte, cultura y música</string>
+    <string name="drogar1">Dictar talleres sobre e daño que causan las drogas.\nMotivar a los jóvenes a participar en  la recreación y el deporte.\nGenerar más educación.</string>
+    <string name="drogap1">¿Cómo hacer que los jóvenes no lleguen a la drogadicción?</string>
+    <string name="drogap2">¿Qué mecanismos hay para prevenir, orientar y evitar la drogadicción en los jóvenes?</string>
+    <string name="drogafoco">Drogadicción</string>
+
+    <string name="aseor3">Capacitación a toda la comunidad para el manejo.\nCampañas de aseo.\nPoner recipientes de colores para clasificar los residuos.</string>
+    <string name="aseor2">Difundir e incentivar a la comunidad en las 3 “R” Reducir, Reutilizar y Reciclar.\nClasificar todos los residuos desde la compra.\nTener sentido de pertenencia por el medio ambiente.</string>
+    <string name="asor1">Crear un contenedor tecnológico de basura.\nCapacitar sobre manejo adecuado de los residuos solidos.\nRealizar un programa de reciclaje en el hogar.</string>
+    <string name="aseofoco">Aseo y manejo de basuras</string>
+    <string name="aseop3">¿Cómo organizar los residuos adecuadamente?</string>
+    <string name="aseop1">¿Cómo manejar adecuadamente las disposición final de los residuos?</string>
+    <string name="aseop2">¿Cómo mitigar la contaminación de los residuos clandestinos en la comuna?</string>
+
+    <string name="seguridad">Retos derivados de las necesidades de mejoramiento en seguridad desde la prevención de acciones de inseguridad en la población.</string>
+    <string name="movilidad">Retos de movilidad, acceso y distribución del territorios en las comunas.</string>
+    <string name="tic">Aprovechamiento de las tecnologías de la información y la comunicación para incentivar proyectos de alto impacto en la población. </string>
+    <string name="ambiente">Acciones para provenir y mitigar los problemas de contaminación ambiental en los territorios.</string>
+    <string name="convivencia">identificación de acciones para mejorar los niveles de convivencia y bienestar en las diferentes comunas. </string>
+    <string name="ilegales"> Retos desarrollados para contrarrestar y prevenir acciones ilegales en las población y en sus instituciones.</string>
+    <string name="salud">Identificación de elementos para mejorar la satisfacción de las necesidades en salud de la comunidad.</string>
+    <string name="parti">Identificación de oportunidades para aplicar los mecanismos de participación de la población.</string>
+
+    <string name="encuesta1">Por medio de esta encuesta podrás crear una unidad productiva que se convertirá en un punto del mapa, para poder consultar su información y necesidades.</string>
+    <string name="encuesta2">Haz click en iniciar encuesta y responde a las preguntas que aparecen en el formulario</string>
+    <string name="encuesta1j"><html><body style="text-align:justify">Por medio de esta encuesta podrás crear una unidad productiva que se convertirá en un punto del mapa, para poder consultar su información y necesidades.</body></html></string>
+    <string name="encuesta2j"><html><body style="text-align:justify">Haz click en iniciar encuesta y responde a las preguntas que aparecen en el formulario</body></html></string>
+</resources>
+

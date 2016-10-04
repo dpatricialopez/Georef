@@ -1,0 +1,282 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="#ede6e6"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+
+        android:visibility="visible"
+        android:layout_alignParentBottom="true">
+
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            tools:context=".MapaEncuestador" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5"
+                    android:layout_gravity="center_horizontal">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/despliega"
+                        android:visibility="visible"
+                        android:background="#eeffffff">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Filtrar Unidades"
+                                android:id="@+id/textView37"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginLeft="2dp" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:id="@+id/close"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:src="@drawable/xnegro"
+                                android:background="#00ffffff"
+                                android:layout_margin="3dp" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.9"
+                            android:layout_margin="4dp">
+
+                            <EditText
+                                android:layout_width="250dp"
+                                android:layout_height="33dp"
+                                android:id="@+id/editText7"
+                                android:layout_weight="2"
+                                android:layout_margin="2dp"
+                                android:textAlignment="textStart"
+                                android:layout_gravity="center"
+                                android:textSize="16sp"
+                                android:background="@drawable/fondo"
+                                android:hint="Palabra clave o Nit"
+                                android:padding="3dp"
+                                android:focusable="false"
+                                android:clickable="true" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:layout_weight="3"
+                            android:layout_margin="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Unidad productiva"
+                                android:id="@+id/textView9"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginLeft="50dp" />
+
+                            <Spinner
+
+                                android:layout_height="30dp"
+                                android:id="@+id/spinner4"
+                                android:textAlignment="center"
+                                android:layout_width="250dp"
+
+                                android:background="@drawable/fondo"
+                                android:layout_gravity="center"
+                                android:layout_weight="3"
+                                android:layout_margin="4dp"
+                                android:spinnerMode="dialog"
+                                android:padding="3dp"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="3"
+                            android:layout_margin="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Problemáticas de la comunidad"
+                                android:id="@+id/textView17"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginLeft="50dp" />
+
+                            <Spinner
+                                android:textAlignment="center"
+                                android:layout_width="250dp"
+
+                                android:background="@drawable/fondo"
+                                android:layout_gravity="center"
+                                android:layout_height="30dp"
+                                android:id="@+id/spinner6"
+                                android:layout_weight="3"
+                                android:layout_margin="4dp"
+                                android:spinnerMode="dialog"
+                                android:padding="3dp"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="3"
+                            android:layout_margin="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Comuna"
+                                android:id="@+id/textView22"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginLeft="50dp" />
+
+                            <Spinner
+                                android:textAlignment="center"
+                                android:layout_width="250dp"
+
+                                android:background="@drawable/fondo"
+                                android:layout_gravity="center"
+                                android:layout_height="30dp"
+                                android:id="@+id/spinner7"
+                                android:layout_weight="3"
+                                android:layout_margin="4dp"
+                                android:spinnerMode="dialog"
+                                android:padding="3dp"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="3"
+                            android:layout_margin="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Problemáticas en el negocio"
+                                android:id="@+id/textView25"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginLeft="50dp" />
+
+                            <Spinner
+                                android:textAlignment="center"
+                                android:layout_width="250dp"
+
+                                android:background="@drawable/fondo"
+                                android:layout_gravity="center"
+                                android:layout_height="30dp"
+                                android:id="@+id/spinner5"
+                                android:layout_weight="3"
+                                android:layout_margin="4dp"
+                                android:spinnerMode="dialog"
+                                android:padding="3dp"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center">
+
+                            <Button
+                                android:textColor="@drawable/button_back4"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Filtrar"
+                                android:textAllCaps="false"
+                                android:id="@+id/filtrar"
+                                android:textSize="14sp"
+                                android:layout_gravity="center"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+

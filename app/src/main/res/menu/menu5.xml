@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/op2"
+        android:title=" Mostrar ranking"
+        android:icon="@drawable/cast_ic_notification_1"
+
+        app:showAsAction="always"/>
+    <item android:id="@+id/op1"
+        android:title=" Volver a filtrar"
+        android:icon="@drawable/lupa2blanca"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+
+        android:title=" ¿Que desea hacer?"
+        android:icon="@drawable/menublanco"
+        app:showAsAction="always" >
+
+        <menu>
+
+
+
+
+
+
+            <item android:id="@+id/op3"
+                android:title=" Ir al Menú principal"
+
+
+                app:showAsAction="never" />
+            <item android:id="@+id/op4"
+                android:title="Cerrar sesión"
+
+
+                app:showAsAction="never" />
+
+
+
+
+        </menu>
+    </item>
+
+</menu>

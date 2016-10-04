@@ -1,0 +1,2471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".FileActivity"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="3.3">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/imageButton3"
+                    android:onClick="imagenClicked"
+                    android:src="@drawable/fotp"
+                    android:background="#ffffff"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:clickable="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Capturar Imagen"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/textView"
+                    android:textSize="18sp"
+                    android:onClick="imagenClicked"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:maxLines="2"
+                    android:minLines="2"
+                    android:lines="2"
+                    android:inputType="textMultiLine" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editText2"
+
+                    android:gravity="left|center_vertical|center"
+                    android:inputType="textCapWords"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:padding="3dp"
+                    android:focusable="true"
+                    android:hint="@string/Encuesta1_pregunta1"
+                    android:layout_marginLeft="10dp"
+                   />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imageView11"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/cce"
+                    android:inputType="number"
+                    android:padding="3dp"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:hint="@string/ced"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                   />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/cci"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editText6"
+                    android:padding="3dp"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="100"
+                    android:hint="@string/Encuesta1_pregunta3_5"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                     />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imageView10"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editText03"
+                    android:inputType="phone"
+                    android:padding="3dp"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:maxLength="7"
+                    android:hint="@string/Encuesta1_pregunta3"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                   />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView3"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editText"
+                    android:inputType="phone"
+                    android:padding="3dp"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:maxLength="10"
+                    android:hint="@string/Encuesta1_pregunta3_4"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                   />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imcelu"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:layout_gravity="left"
+            android:gravity="left|center_vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/razon"
+                    android:maxLength="100"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:padding="3dp"
+                    android:inputType="textImeMultiLine"
+                    android:hint="@string/Encuesta1_preguntarazon"
+                    android:gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imrazon"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="6dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="6dp">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editText5"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:inputType="number"
+                    android:padding="3dp"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:maxLength="15"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:hint="@string/Encuesta1_pregunta2"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                   />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imageView9"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Edittext04"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:textSize="18sp"
+                android:clickable="true"
+                android:layout_gravity="left"
+                android:background="@drawable/fondo"
+                android:padding="3dp"
+                android:maxLength="100"
+                android:inputType="textImeMultiLine"
+                android:hint="@string/Encuesta1_pregunta4"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:singleLine="true"
+                android:phoneNumber="true"
+                 />
+        </LinearLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView04"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta4_8"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView41"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_horizontal" >
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spcomuna"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:textAlignment="center"
+                    android:background="@drawable/fondo"
+                    android:spinnerMode="dropdown"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                     />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imcomun"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta4_7"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView38"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_horizontal" >
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spbarrio"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:textAlignment="center"
+                    android:background="@drawable/fondo"
+                    android:spinnerMode="dropdown"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imbarrio"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta4_9"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView36"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinneredad"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:textAlignment="center"
+
+                    android:textSize="30sp"
+                    android:background="@drawable/fondo"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="8"
+                    android:scaleType="centerInside"
+                    android:background="@null"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:id="@+id/imedad"
+                    android:src="@drawable/uncheck"
+                    android:layout_gravity="bottom|right"
+                    android:gravity="bottom|right"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta7"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView07"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="10dp">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Femenino"
+                        android:id="@+id/rdgenero_1"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide"
+                        android:layout_marginLeft="10dp" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Masculino"
+                        android:id="@+id/rdgenero_2"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+                </RadioGroup>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView07"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta4_9"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView18"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp">
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/Spinner08"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:textAlignment="center"
+                    android:background="@drawable/fondo"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/edspgrado"
+                    android:gravity="left|center_vertical|center"
+                    android:inputType="textCapWords"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:padding="3dp"
+                    android:focusable="true"
+                    android:hint="@string/Encuesta1_pregunta8"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView08"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta9_16"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView42"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sí"
+                        android:id="@+id/rdregi1"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:id="@+id/rdregi2"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imregis"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta5"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView29"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_horizontal" >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dueño"
+                        android:id="@+id/radioButton3"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Empleado"
+                        android:id="@+id/radioButton4"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imageView8"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta9_17"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView35"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinnernum"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:background="@drawable/fondo"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/edspnum"
+                    android:gravity="left|center_vertical|center"
+                    android:inputType="textCapWords"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:padding="3dp"
+                    android:focusable="true"
+                    android:hint="@string/Encuesta1_pregunta9_17"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imemp"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta9_15"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView46"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinner3"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:background="@drawable/fondo"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/edsptiempo"
+                    android:gravity="left|center_vertical|center"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:padding="3dp"
+                    android:focusable="true"
+                    android:hint="@string/Encuesta1_pregunta9_15"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imageView7"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta9"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView50"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:textSize="18sp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinner2"
+                    android:textSize="18dp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:textAlignment="center"
+                    android:background="@drawable/fondo"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/edsptamano"
+                    android:gravity="left|center_vertical|center"
+                    android:inputType="textCapWords"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:padding="3dp"
+                    android:focusable="true"
+                    android:hint="@string/Encuesta1_pregunta9"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imageView6"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta6"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView70"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinner"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:background="@drawable/fondo"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/edspact"
+                    android:gravity="left|center_vertical|center"
+                    android:inputType="textCapWords"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:padding="3dp"
+                    android:focusable="true"
+                    android:hint="@string/Encuesta1_pregunta6"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imageView4"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/desc"
+                    android:padding="3dp"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:isScrollContainer="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:inputType="textLongMessage|textMultiLine"
+                    android:hint="@string/Encuesta1_pregunta19b"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                     />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imdesc"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:text="@string/Encuesta1_pregunta10"
+                android:id="@+id/textView10"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp">
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Equipo1"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Equipo2"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch103"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Equipo3"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Equipo4"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/imeq"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:text="@string/Encuesta1_pregunta11"
+                android:id="@+id/textView11"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sí"
+                        android:id="@+id/rdinternet_1"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:id="@+id/rdinternet_2"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+                </RadioGroup>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView11"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta12"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView12"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sí"
+                        android:id="@+id/rd12_1"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:id="@+id/rd_12_2"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+                </RadioGroup>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView12"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:text="@string/Encuesta1_pregunta14"
+                android:id="@+id/textView14"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp">
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sí"
+                        android:id="@+id/rdcurso_1"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:id="@+id/rdcurso_2"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView14"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:text="@string/Encuesta1_pregunta14_23"
+                android:id="@+id/textView23"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1.6"
+                    android:layout_margin="8dp" >
+
+                    <CheckBox
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/checkBox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ar1"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:checked="false"
+                        android:layout_gravity="bottom"
+                        android:onClick="hide" />
+
+                    <CheckBox
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/checkBox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ar2"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:checked="false"
+                         />
+
+                    <CheckBox
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/checkBox9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ar3"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:checked="false"
+                        android:onClick="hide" />
+
+                    <CheckBox
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/checkBox10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ar4"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:checked="false"
+                        android:onClick="hide" />
+
+                    <CheckBox
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/checkBox11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ar5"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:checked="false"
+                        android:onClick="hide" />
+
+                    <CheckBox
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/char7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ninguno"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:checked="false"
+                        android:onClick="hide" />
+
+                    <CheckBox
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/checkBox12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ar6"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:checked="false"
+                        android:onClick="hide" />
+
+                    <EditText
+
+                        android:layout_height="fill_parent"
+                        android:layout_width="200dp"
+                        android:id="@+id/otro23"
+                        android:background="@drawable/fondo"
+                        android:layout_weight="5"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:hint="Cual?"
+                        android:autoText="false"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/im23"
+                android:src="@drawable/uncheck"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="bottom"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableStart="@drawable/aster"
+                android:drawableLeft="@drawable/aster"
+                android:text="@string/Encuesta1_pregunta15"
+                android:id="@+id/textView15"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp" >
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch151"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mn1"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch152"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mn2"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch153"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mn3"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch154"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mn4"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch155"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mn5"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:onClick="hide" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch156"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mn6"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:checked="false"
+                    android:onClick="hide" />
+
+                <CheckBox
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/ch57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mn7"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:checked="false"
+                    android:onClick="hide" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView15"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_horizontal" >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pqmce"
+
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:padding="3dp"
+                    android:isScrollContainer="true"
+                    android:inputType="textMultiLine"
+                    android:hint="@string/pqmn"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                     />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/pqmci"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Encuesta1_pregunta26"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:id="@+id/textView93"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinnerc"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:background="@drawable/fondo"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edspcambio"
+                    android:padding="3dp"
+                    android:drawableLeft="@drawable/aster"
+                    android:drawableStart="@drawable/aster"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:isScrollContainer="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:inputType="textLongMessage|textMultiLine"
+                    android:hint="@string/Encuesta1_pregunta26"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/im28"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:text="@string/Encuesta1_pregunta16"
+                android:id="@+id/textView16"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp" >
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch161"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mc1"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch162"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mc2"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch163"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mc3"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch164"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mc4"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch165"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mc5"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <CheckBox android:layout_marginBottom="10dp"
+                    android:id="@+id/ch166"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mc6"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/ch167"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mc7"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:checked="false" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ImageView16"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:layout_margin="8dp"
+                android:gravity="center_horizontal" >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pqmne"
+
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/fondo"
+                    android:isScrollContainer="true"
+                    android:padding="3dp"
+                    android:inputType="textLongMessage|textAutoComplete|textAutoCorrect|textMultiLine"
+                    android:hint="@string/pqmc"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/pqmni"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:text="@string/Encuesta1_pregunta29"
+                android:id="@+id/textView24"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sí"
+                        android:id="@+id/rdpart1"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:id="@+id/rdpart2"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:checked="false"
+                        android:layout_weight="3"
+                        android:onClick="hide" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/im26"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:text="@string/Encuesta1_pregunta27"
+                android:id="@+id/textView27"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.6"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1.6"
+                        android:layout_margin="8dp" >
+
+                        <CheckBox
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/checkBox13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pro1"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:checked="false"
+                            android:onClick="hide" />
+
+                        <CheckBox
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/checkBox14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pro2"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:checked="false"
+                            android:onClick="hide" />
+
+                        <CheckBox
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/checkBox15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pro3"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:checked="false"
+                            android:onClick="hide" />
+
+                        <CheckBox
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/checkBox16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pro4"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:checked="false"
+                            android:onClick="hide" />
+
+                        <CheckBox
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/checkBox17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pro5"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:checked="false"
+                            android:onClick="hide" />
+
+                        <CheckBox
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/checkBox18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pro6"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:checked="false"
+                            android:onClick="hide" />
+
+                        <EditText
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/otro27"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="5"
+                            android:background="#fbf9f9"
+                            android:autoText="false"
+                            android:visibility="gone"
+                            android:hint="Cual?" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="8"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/im27"
+                android:src="@drawable/uncheck"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_marginRight="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:layout_height="fill_parent">
+
+            <Button
+
+                android:id="@+id/guardar1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:onClick="guardar"
+                android:layout_weight="5"
+                android:textColor="@drawable/button_back4"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"
+                android:id="@+id/cancelar1"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:layout_weight="5"
+                android:onClick="cancelar"
+                android:textColor="@drawable/button_back4"
+                android:textSize="18sp"
+                android:allowUndo="true"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

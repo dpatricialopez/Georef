@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:maxWidth="400dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:background="@drawable/fondo"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAllCaps="false"
+                    android:text="Empleo de mujeres cabeza de hogar"
+                    android:drawablePadding="15dip"
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/mujerselector"
+                    android:id="@+id/btnmujer"
+                    android:textSize="14sp"
+                    android:textColor="@drawable/button_back5"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:background="@drawable/button_back"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/txtsalud"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:background="@drawable/fondo"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAllCaps="false"
+                    android:text="Generación de empleo"
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/empleoselector"
+                    android:id="@+id/btnempleo"
+                    android:drawablePadding="15dip"
+                    android:textSize="14sp"
+                    android:textColor="@drawable/button_back5"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/txtempleo"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:background="@drawable/fondo"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:text="Aseo y manejo de basuras"
+                    android:textAllCaps="false"
+                    android:drawablePadding="15dip"
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/aseoselector"
+                    android:id="@+id/btnaseo"
+                    android:textSize="14sp"
+                    android:textColor="@drawable/button_back5"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/txtaseo"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:background="@drawable/fondo"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAllCaps="false"
+                    android:text="Drogadicción"
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/drogaselector"
+                    android:id="@+id/btndroga"
+                    android:drawablePadding="15dip"
+                    android:textSize="14sp"
+                    android:textColor="@drawable/button_back5"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/txtparti"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:background="@drawable/fondo"
+                android:layout_marginBottom="25dp" >
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:text="Educación"
+                    android:textAllCaps="false"
+                    android:drawablePadding="15dip"
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/claseselector"
+                    android:id="@+id/btneduca"
+                    android:textSize="14sp"
+                    android:textColor="@drawable/button_back5"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/textView4"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:background="@drawable/fondo"
+                android:layout_marginBottom="25dp" >
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAllCaps="false"
+                    android:text="Atención integral a la primera infancia"
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/ninoselector"
+                    android:id="@+id/btnnino"
+                    android:drawablePadding="15dip"
+                    android:textSize="14sp"
+                    android:textColor="@drawable/button_back5"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/textView7"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver todos los retos"
+                    android:padding="12dp"
+                    android:drawablePadding="15dip"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:id="@+id/ver"
+                    android:textColor="@drawable/button_back4"
+                    android:capitalize="none"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:id="@+id/problemas2"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="8"
+                    android:background="@drawable/fondo"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/imageView12"
+                        android:src="@drawable/bandera"
+                        android:layout_weight="9.5"
+                        android:padding="8dp"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:paddingBottom="3dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Servicios de salud"
+                        android:id="@+id/textView43"
+
+                        android:textSize="12sp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="2.2"
+                        android:gravity="left|center_vertical" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="8"
+                    android:background="@drawable/fondo"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:padding="8dp"
+                        android:id="@+id/imageView14"
+                        android:src="@drawable/bandera"
+                        android:layout_weight="9.5" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Participación ciudadana"
+                        android:id="@+id/textView44"
+
+                        android:textSize="12sp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="2.2"
+                        android:gravity="left|center_vertical" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="8"
+                    android:background="@drawable/fondo"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/imageView15"
+                        android:padding="8dp"
+                        android:src="@drawable/bandera"
+                        android:layout_weight="9.5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Seguridad"
+                        android:id="@+id/textView45"
+
+                        android:textSize="12sp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="2.2"
+                        android:gravity="left|center_vertical" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="8"
+                    android:background="@drawable/fondo"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/imageView18"
+                        android:padding="8dp"
+                        android:src="@drawable/bandera"
+                        android:layout_weight="9.5" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Movilidad"
+                        android:id="@+id/textView47"
+
+                        android:textSize="12sp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="2.2"
+                        android:gravity="left|center_vertical" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="8"
+                    android:background="@drawable/fondo"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/imageView20"
+                        android:padding="8dp"
+                        android:src="@drawable/bandera"
+                        android:layout_weight="9.5" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="TIC&apos;s"
+                        android:id="@+id/textView48"
+
+                        android:textSize="12sp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="2.2"
+                        android:gravity="left|center_vertical" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="8"
+                    android:background="@drawable/fondo"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitCenter"
+                        android:padding="8dp"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/imageView21"
+                        android:src="@drawable/bandera"
+                        android:layout_weight="9.5" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Recuperación Ambiental"
+                        android:id="@+id/textView49"
+
+                        android:textSize="12sp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="2.2"
+                        android:gravity="left|center_vertical" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="8"
+                    android:background="@drawable/fondo"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitCenter"
+                        android:padding="8dp"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/imageView22"
+                        android:src="@drawable/bandera"
+                        android:layout_weight="9.5" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Actividades ilegales"
+                        android:id="@+id/textView51"
+
+                        android:textSize="12sp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="2.2"
+                        android:gravity="left|center_vertical" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

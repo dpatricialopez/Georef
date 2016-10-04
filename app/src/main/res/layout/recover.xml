@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText13"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:background="@drawable/fondo"
+                android:text="Fecha de nacimiento"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:padding="3dp"
+                android:onClick="fecha" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:id="@+id/text"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+
+                android:textSize="16sp"
+                android:background="#00e6e6e6"
+                android:hint="Pregunta"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:maxLength="50"
+                android:id="@+id/editText10"
+                android:layout_gravity="top|center"
+                android:textSize="16sp"
+                android:background="@drawable/fondo"
+                android:allowUndo="false"
+                android:autoText="false"
+                android:hint="Respuesta Secreta"
+                android:padding="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="number|textPassword"
+                android:ems="10"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:maxLength="15"
+                android:id="@+id/editText16"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:background="@drawable/fondo"
+                android:allowUndo="false"
+                android:autoText="true"
+                android:hint="Nueva contraseña"
+                android:padding="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="number|textPassword"
+                android:ems="10"
+                android:drawableLeft="@drawable/aster"
+                android:drawableStart="@drawable/aster"
+                android:maxLength="15"
+                android:id="@+id/editText8"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:background="@drawable/fondo"
+                android:allowUndo="false"
+                android:autoText="true"
+                android:hint="Confirmar  contraseña"
+                android:padding="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:textAllCaps="false"
+
+                    android:layout_width="120dp"
+                    android:textColor="@drawable/button_back4"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Cancelar"
+                    android:id="@+id/button3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Restaurar"
+                    android:id="@+id/button"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+
+
+
+                    android:textColor="@drawable/button_back4"
+                    android:textStyle="bold"
+
+                    android:gravity="center_vertical|center|center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

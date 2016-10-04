@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_weight="1"
+       >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mujerfoco"
+            android:id="@+id/textView19"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 1"
+            android:id="@+id/txp1"
+            android:drawableRight="@drawable/flechaselector2"
+            android:textColor="@drawable/button_back9"
+            android:background="@drawable/button_back10"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="3dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/preg1"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pregunta alrededor del foco"
+                android:id="@+id/textView30"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="3dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mujerp"
+                android:id="@+id/textView31"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Respuesta"
+                android:id="@+id/textView33"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="3dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mujer1"
+                android:id="@+id/textView39"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 2"
+            android:id="@+id/txp2"
+            android:drawableRight="@drawable/flechaselector2"
+            android:textColor="@drawable/button_back9"
+            android:background="@drawable/button_back10"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="3dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/preg2"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pregunta alrededor del foco"
+                android:id="@+id/textView68"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="3dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mujerp2"
+                android:id="@+id/textView69"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Respuesta"
+                android:id="@+id/textView71"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="3dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mujerr2"
+                android:id="@+id/textView72"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

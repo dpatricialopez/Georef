@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="13"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:paddingTop="30dp"
+            android:paddingLeft="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton"
+                android:src="@drawable/fotp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left|bottom"
+                android:gravity="left|bottom"
+                android:layout_marginLeft="20dp">
+
+                <TextView
+                    android:text="Nombre y Apellido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:id="@+id/name"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:text="Correo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:id="@+id/Correo"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="20dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="30dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:background="@drawable/button_back6"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" >
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="25sp"
+                    android:text="@string/menu_opcion1"
+                    android:id="@+id/button5"
+                    android:drawablePadding="5dip"
+                    android:elegantTextHeight="false"
+                    android:theme="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:padding="15dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/unidadselector"
+                    android:textColor="@drawable/button_back5"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:background="@drawable/button_back6"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:text="@string/menu_opcion2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="25sp"
+                    android:id="@+id/button6"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dip"
+                    android:padding="15dp"
+
+                    android:layout_gravity="left|center_vertical"
+
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/probselector"
+                    android:textColor="@drawable/button_back5"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:background="@drawable/button_back6"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" >
+
+                <Button
+
+                    android:text="@string/menu_opcion4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="25sp"
+                    android:id="@+id/selencuesta"
+
+                    android:layout_weight="1"
+                    android:drawablePadding="5dip"
+                    android:padding="15dp"
+                    android:layout_gravity="left|center_vertical"
+
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/nuevoselector"
+                    android:textColor="@drawable/button_back5"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:background="@drawable/button_back6"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" >
+
+                <Button
+                    android:text="@string/menu_opcion3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="25sp"
+                    android:id="@+id/r"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+
+                    android:drawablePadding="5dip"
+                    android:drawableRight="@drawable/flechaselector"
+                    android:drawableLeft="@drawable/retoselector"
+                    android:textColor="@drawable/button_back5"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/button_back"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

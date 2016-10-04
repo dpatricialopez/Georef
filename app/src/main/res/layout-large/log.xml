@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4.5"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:gravity="center|clip_vertical">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:maxLength="100"
+                android:drawableLeft="@drawable/sobreoscuro"
+                android:drawablePadding="8dip"
+                android:paddingLeft="15dip"
+                android:id="@+id/cedulat"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:background="@drawable/fondo"
+                android:allowUndo="false"
+                android:autoText="false"
+                android:hint="Correo"
+                android:padding="5dp"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:gravity="center|clip_vertical">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawableLeft="@drawable/candadosc"
+                android:drawablePadding="8dip"
+                android:paddingLeft="15dip"
+                android:id="@+id/editText8"
+                android:layout_gravity="center"
+                android:maxLength="15"
+                android:textSize="25sp"
+                android:background="@drawable/fondo"
+                android:allowUndo="false"
+                android:autoText="true"
+                android:hint="Contraseña"
+                android:padding="5dp"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Entrar"
+                android:textAllCaps="false"
+                android:id="@+id/button"
+                android:layout_gravity="center"
+
+                android:gravity="center_vertical|center|center_horizontal"
+                android:textColor="@drawable/button_back4"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:background="#00ffffff"
+                android:textColor="@drawable/button_back3"
+                android:layout_height="wrap_content"
+                android:text="¿Olvidaste tu contraseña?"
+                android:id="@+id/button69"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4.3"
+            android:gravity="clip_vertical">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Crear una nueva cuenta"
+                android:id="@+id/button8"
+                android:textAllCaps="false"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_weight="6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4.2">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView24"
+                android:src="@drawable/lkj"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
